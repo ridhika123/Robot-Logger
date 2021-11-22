@@ -25,7 +25,7 @@ In particular:
 * the program should not print a prompt for robot commands; instead
 * if the user specifies a command-line flag -h, then the program should list the possible actions (i.e., the command file or input format) and exit 
 
-This program should support at least 10 different actions (following the Project 3 command requirements). As with that project, each action (except, perhaps, quit) must be implemented as a separate procedure.
+This program should support at least 10 different actions (following the previous [Project](https://github.com/ridhika123/Robot-Command) command requirements). As with that project, each action (except, perhaps, quit) must be implemented as a separate procedure.
 
 #### Example:
 The following examples are based on a program robot-command that supports this project. Although this table shows several possibilities, the table is not complete. For example, various combinations of -r and -w are possible, with and without file names, and the -r and -w flags could be in either order.
