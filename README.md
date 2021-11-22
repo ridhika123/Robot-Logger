@@ -2,9 +2,10 @@
 
 ## Prompt
 
-Summary: You will write a "robot logger" program which can log actions to a file, and also read and perform actions from a file.
+#### Summary: 
+You will write a "robot logger" program which can log actions to a file, and also read and perform actions from a file.
 
-Details:
+#### Details:
 You should use command-line input flags to specify whether the robot is in "read" mode (reading actions from a file), "write" mode (logging actions onto a file), or both "read" and "write" mode. When no files or flags are specified, I/O should happen through the terminal.
 
 In particular:
@@ -26,7 +27,7 @@ In particular:
 
 This program should support at least 10 different actions (following the Project 3 command requirements). As with that project, each action (except, perhaps, quit) must be implemented as a separate procedure.
 
-Example:
+#### Example:
 The following examples are based on a program robot-command that supports this project. Although this table shows several possibilities, the table is not complete. For example, various combinations of -r and -w are possible, with and without file names, and the -r and -w flags could be in either order.
 
     Command line	      Interpretation
@@ -40,7 +41,10 @@ The following examples are based on a program robot-command that supports this p
     ./robot-command -r  infile.dat -w logfile.dat	reads commands from infile.dat, writes commands with parameters to logfile.dat
     ./robot-command -r  infile.dat -w	reads commands from infile.dat; writes comands with parameters to a file; because no log file name is specified, user must be asked for the filename
 
-Notes:
+#### Notes:
 * Global variables may not be used in this project; use of any global variable will result in a grade of zero. Instead, use parameters to pass values into functions.
 * You are encouraged to use Project 3 or your command-robot.c program from the Command-Line Arguments lab as the basis for the command input. (You must clearly identify which code is original to a different work and who the authors are.)
 * Remember that stdin and stdout are themselves FILE* variables and can be passed to functions that expect a variable of that type.
+
+## Response
+The program is [here](https://github.com/ridhika123/Robot-Logger/blob/main/robot_logger.c).
